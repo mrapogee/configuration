@@ -2,5 +2,5 @@
 nvim/bundle
 zsh/.zsh_history
 zsh/.zsh-update
-zsh/.zshcompdump
+zsh/.zcompdump
 
