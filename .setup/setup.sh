@@ -1,11 +1,11 @@
 
-sudo apt-get update
+apt-get update
 
 # vim
-sudo apt-get --assume-yes install neovim
+apt-get --assume-yes install neovim
 
 # zsh
-sudo apt-get --assume-yes install zsh
+apt-get --assume-yes install zsh
 cat ./zshenv | tee -a /etc/zsh/zshenv
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
