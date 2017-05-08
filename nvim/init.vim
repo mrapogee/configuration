@@ -1,11 +1,11 @@
 "NeoBundle Scripts-----------------------------
 if has('vim_starting')
   " Required:
-  set runtimepath+=/home/opam/.config/nvim/bundle/neobundle.vim/
+  set runtimepath+=/root/.config/nvim/bundle/neobundle.vim/
 endif
 
 " Required:
-call neobundle#begin(expand('/home/opam/.config/nvim/bundle'))
+call neobundle#begin(expand('/root/.config/nvim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
